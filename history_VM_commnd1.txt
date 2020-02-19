@@ -1,0 +1,37 @@
+PS C:\Program Files\1cv8\8.3.12.1714\bin> Get-History
+
+  Id CommandLine
+  -- -----------
+   1 New-Service -Name "1C:Enterprise 8.3 Server Agent" -BinaryPathName "`"C:\Program Files\1cv8\8.3.12.1714\bin\rag...
+   2 
+   3 Get-Service "1C:Enterprise 8.3 Server Agent"
+   4 Start-Service "1C:Enterprise 8.3 Server Agent"
+   5 New-Service -Name "1CEnt" -BinaryPathName "`"C:\Program Files\1cv8\8.3.12.1714\bin\ragent.exe`" -srvc -agent -r...
+   6 Start-Service "1CEnt"
+   7 cd 'C:\Program Files\1cv8\'
+   8 dir
+   9 cd .\8.3.12.1714\
+  10 dir
+  11 cd bin
+  12 dir
+  13 Get-Eventlog -List
+  14  Get-Eventlog -logname Security
+  15  Get-Eventlog -logname Application
+  16  Get-Eventlog -logname Application| Format-List
+  17 Get-Eventlog -List
+  18  Get-Eventlog -logname System
+  19  Get-Eventlog -logname System -Message "*Error*"
+  20  Get-Eventlog -logname System -Message "*Error*"| Format-List
+  21  Get-Eventlog -logname System -Message "*Error*"
+  22  Get-Eventlog -logname System -Message "Error*"
+  23  Get-Eventlog -logname System -Message "1C*"
+  24  Get-Eventlog -logname System -Message "*1C*"
+  25  Get-Eventlog -logname System -Message "*1C*"| Format-List
+  26 New-Service -Name "1CEnt2" -BinaryPathName "`"C:\Program Files\1cv8\8.3.12.1714\bin\ragent.exe`" -srvc -agent -...
+  27 Start-Service "1CEnt2"
+  28  Get-Eventlog -logname System -Message "*1C*"| Format-List
+  29 Set-Service -Name "1CEnt2" -DependsOn "Tcpip"
+  30 New-Service -Name "1CEnt3" -BinaryPathName "`"C:\Program Files\1cv8\8.3.12.1714\bin\ragent.exe`" -srvc -agent -...
+  31 Start-Service "1CEnt3"
+  32 netstat -an|more
+  33 ipconfig

@@ -1,0 +1,116 @@
+  Id CommandLine
+  -- -----------
+   1 docker ps -a
+   2 docker images
+   3 docker images
+   4 docker run -it iis1cv2:latest
+   5 ipconfig
+   6 docker ps -a
+   7 docker exec -it 2e4ba16827ca cmd
+   8 docker run -it iis1cv2:latest cmd
+   9 docker ps -a
+  10 docker run -it iis1cv2:latest cmd
+  11 docker run -it iis1cv3:latest cmd
+  12 docker ps -a
+  13 docker images
+  14 docker help
+  15 docker help image
+  16 docker images
+  17 docker image rm iis1cv3
+  18 docker image rm iis1cv3
+
+docker build -t iis1cv3 .
+
+
+docker images
+docker version
+docker image pull mcr.microsoft.com/windows/nanoserver:1903
+docker run hello-world
+docker ps
+docker images
+docker image ls
+docker container ls --all
+docker run mcr.microsoft.com/windows:1903
+docker container ls
+docker container ls -all
+docker run mcr.microsoft.com/windows:1903
+docker container ls -all
+docker /?
+docker --help
+docker container ls -all
+docker attach 59a773d6bba0
+docker start 59a773d6bba0
+docker attach 59a773d6bba0
+docker container ls -all
+docker images
+docker container ls -all
+docker run mcr.microsoft.com/windows:1903 cmd.exe
+docker container ls -all
+docker images
+docker run mcr.microsoft.com/windows:1903 cmd.exe
+docker ps
+docker run mcr.microsoft.com/windows:1903 cmd.exe
+docker images
+docker run mcr.microsoft.com/windows/nanoserver:1903 cmd.exe
+docker version
+ docker version
+docker run microsoft/windowsservercore host1
+docker run hello-world
+ docker run -it mcr.microsoft.com/windows/servercore powershell
+ docker run -it mcr.microsoft.com/windows/servercore:1903 powershell
+docker image pull mcr.microsoft.com/windows/nanoserver:1809
+docker images
+docker run mcr.microsoft.com/windows/nanoserver:1809 host1
+ docker run -it mcr.microsoft.com/windows/servercore:1903 
+docker run mcr.microsoft.com/windows/nanoserver:1809 host1
+docker images
+ docker run -it mcr.microsoft.com/windows:1903
+docker images
+docker run hello-world
+docker run -it mcr.microsoft.com/windows/servercore powershell
+docker run -it mcr.microsoft.com/windows/servercore:1903 powershell
+docker ps
+docker ps -a
+docker run gitea/gitea
+docker images
+docker run gitea/gitea
+docker images
+dockerps
+docker ps
+docker help
+docker ps -a
+docker help exec
+docker ps -a
+docker exec eb684780d38e powershell
+docker run -it mcr.microsoft.com/windows/servercore:1903 powershell
+docker --version
+docker container ls
+docker container ls -a
+docker run hello-world
+docker --version
+docker run -it hello-world
+docker-compose up
+docker version
+docker container ls -a
+docker images
+docker build -t iis .
+netstat -an
+netstat -an|more
+ipconfig
+docker build -t iis .
+docker run -it iis:latest
+docker run -it iis:latest
+docker build -t iis .
+docker run -it iis:latest
+docker build -t iis .
+docker run -it iis:latest
+docker ps -a
+docker exec -it 
+docer ps -a
+docker ps -a
+docker exec -it cf3ce3ab5d90 cmd
+docker build -t iis1c .
+docker run -it iis1c:latest
+docker build -t iis1c .
+docker run -it iis1c:latest
+docker ps -a
